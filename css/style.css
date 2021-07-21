@@ -42,3 +42,52 @@ fieldset {
 .headercontainer-right nav ul li a {
   color: black;
 }
+
+.maincontenedor {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.maincontenedor-left {
+  width: 50%;
+  padding: 5%;
+  background-color: #00ff40;
+}
+
+.maincontenedor-left h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+  padding: 5%;
+}
+
+.maincontenedor-left p {
+  color: #8b8b8b;
+  letter-spacing: 5px;
+}
+
+.maincontenedor-left .cont-btn {
+  display: flex;
+}
+
+.maincontenedor-left .btn, .maincontenedor-left .btn-1, .maincontenedor-left .btn-2 {
+  padding: 5%;
+  background-color: #03faee;
+  border-radius: 5%;
+}
+
+.maincontenedor-left .btn-1 {
+  color: red;
+}
+
+.maincontenedor-left .btn-2 {
+  color: blueviolet;
+}
+
+.maincontenedor-right {
+  background-color: #f8f8f8;
+  background-color: #ff00c8;
+}

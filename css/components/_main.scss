@@ -1,0 +1,45 @@
+.maincontenedor {
+  max-width: $maxw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  &-left {
+    width: 50%;
+    padding: 5%;
+    background-color: rgb(0, 255, 64);
+    h2 {
+      font-family: $fon1;
+      font-size: 55px;
+      line-height: 70px;
+      letter-spacing: 10px;
+      padding: 5%;
+    }
+    p {
+      color: $ColorTerceario;
+      letter-spacing: 5px;
+    }
+    .cont-btn {
+      display: flex;
+    }
+    .btn {
+      padding: 5%;
+      background-color: $ColorPrimario;
+      border-radius: 5%;
+      &-1 {
+        @extend .btn;
+
+        color: red;
+      }
+      &-2 {
+        @extend .btn;
+        color: blueviolet;
+      }
+    }
+  }
+
+  &-right {
+    background-color: $imgbackground;
+    background-color: rgb(255, 0, 200);
+  }
+}
