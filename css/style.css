@@ -28,6 +28,8 @@ fieldset {
 }
 
 .headercontainer {
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,4 +43,35 @@ fieldset {
 
 .headercontainer-right nav ul li a {
   color: black;
+}
+
+.footercontenedor {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.footercontenedor-left {
+  display: flex;
+  align-items: center;
+}
+
+.footercontenedor-right {
+  display: flex;
+  gap: 15px;
+}
+
+.footercontenedor-right .social, .footercontenedor-right .social-1, .footercontenedor-right .social-2, .footercontenedor-right .social-3 {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50%;
+  box-shadow: -8px 0px #92f7f2;
+}
+
+.footercontenedor-right .social img, .footercontenedor-right .social-1 img, .footercontenedor-right .social-2 img, .footercontenedor-right .social-3 img {
+  max-width: 30%;
 }
