@@ -1,0 +1,24 @@
+.headercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  &-left {
+    h1 {
+    }
+  }
+
+  &-right {
+    nav {
+      ul {
+        display: flex;
+        gap: 20px;
+        li {
+          a {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

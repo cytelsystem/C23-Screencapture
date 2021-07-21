@@ -1,19 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-:root {
-  --maxw: 1024px;
-  --fon1: "Roboto", sans-serif;
-  --ColorPrimario: #000000;
-  --ColorSecundario: #333333;
-  --ColorTerceario: #00669f;
-  --ColorCuaternario: #fff9f9;
-  --ColorQuinario: #f3f3f3;
-  --ColorSextario: #ffffff;
-  --ColorSeptimoario: #1cd1b0;
-  --backgroundImg: rgb(236, 221, 221);
-  --Pshadow1: 0px 10px 7px rgb(0 0 0 / 25%);
-  --Pshadow2: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,9 +5,9 @@
 }
 
 body {
-  font-family: var(--fon1);
-  font-weight: 300px;
+  font-family: var(Arial, Helvetica, sans-serif);
 }
+
 img {
   max-width: 100%;
 }
@@ -41,4 +25,20 @@ fieldset {
   padding: 0.01em 0 0 0;
   margin: 0;
   min-width: 0;
+}
+
+.headercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+
+.headercontainer-right nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.headercontainer-right nav ul li a {
+  color: black;
 }
