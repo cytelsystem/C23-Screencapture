@@ -55,7 +55,6 @@ fieldset {
 .maincontenedor-left {
   width: 50%;
   padding: 5%;
-  background-color: #00ff40;
 }
 
 .maincontenedor-left h2 {
@@ -75,7 +74,9 @@ fieldset {
   display: flex;
 }
 
-.maincontenedor-left .btn, .maincontenedor-left .btn-1, .maincontenedor-left .btn-2 {
+.maincontenedor-left .btn,
+.maincontenedor-left .btn-1,
+.maincontenedor-left .btn-2 {
   padding: 5%;
   background-color: #03faee;
   border-radius: 5%;
@@ -91,7 +92,10 @@ fieldset {
 
 .maincontenedor-right {
   background-color: #f8f8f8;
-  background-color: #ff00c8;
+  background-image: url(../img/wireframe.svg);
+  width: 500px;
+  height: 500px;
+  background-position: 50%;
 }
 
 .footercontenedor {
@@ -112,7 +116,10 @@ fieldset {
   gap: 15px;
 }
 
-.footercontenedor-right .social, .footercontenedor-right .social-1, .footercontenedor-right .social-2, .footercontenedor-right .social-3 {
+.footercontenedor-right .social,
+.footercontenedor-right .social-1,
+.footercontenedor-right .social-2,
+.footercontenedor-right .social-3 {
   width: 50px;
   height: 50px;
   display: flex;
@@ -121,6 +128,9 @@ fieldset {
   box-shadow: -8px 0px #92f7f2;
 }
 
-.footercontenedor-right .social img, .footercontenedor-right .social-1 img, .footercontenedor-right .social-2 img, .footercontenedor-right .social-3 img {
+.footercontenedor-right .social img,
+.footercontenedor-right .social-1 img,
+.footercontenedor-right .social-2 img,
+.footercontenedor-right .social-3 img {
   max-width: 30%;
 }
